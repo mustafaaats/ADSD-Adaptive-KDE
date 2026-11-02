@@ -1,0 +1,58 @@
+# macOS
+.DS_Store
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+.env/
+
+# Experiment logs
+*.log
+
+# Intermediate experiments and backups
+experiment_snapshots/
+baseline/ADSD/fit_original.py
+baseline/ADSD/fit_adaptive_v1.py
+baseline/ADSD/fit_adaptive_v2.py
+baseline/ADSD/fit_hybrid_v3.py
+
+# Temporary demonstrations
+demo_*.py
+
+# Raw downloaded dataset files
+seismic_bumps.zip
+seismic_bumps_raw/
+
+# Full local environment snapshot
+requirements_full.txt
+
+# Include only datasets used in our experiments
+datasets/*
+!datasets/thyroid.npz
+!datasets/seismic_bumps.npz
+!datasets/synthetic_constructed.npz
+!datasets/synthetic_constructed_metadata.npz
+
+# Local IDE configuration
+.idea/
+
+# Original paper supplementary documents
+Appendix.pdf
+Discussions.pdf
+
+# Keep only the ADSD implementation used in our experiments
+baseline/*
+!baseline/ADSD/
+
+# Unused original utilities and scripts
+other_utils/
+loss_comparison.py
+run.py
+
+# Backup of the original README
+README_original.md
+!baseline/ADSD/run.py
