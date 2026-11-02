@@ -54,11 +54,11 @@ The synthetic dataset and its anomaly-type metadata are saved in `datasets/`.
 
 - Model: ADSD with MLP architecture
 - Training epochs: 20
-- Labelled anomaly ratio: 5%
+- Labelled anomaly ratios: 5%, 10%, 20%
 - Random seeds: 1, 2, 3, 4, 5
 - Bandwidth mixing parameters: 0.0, 0.2, 0.5, 0.8, 1.0
 - Evaluation metrics: ROC-AUC and Average Precision (AP)
-- Total experiments: 75
+- Total experiments: 225
 
 Data splitting is stratified, and feature scaling is fitted using the training partition.
 
@@ -104,6 +104,8 @@ Warning: this command overwrites the existing synthetic dataset and metadata fil
 
 ## Results
 
+The original result tables and plots below show the 5% supervision setting. The additional 10% and 20% results are recorded in `label_ratio_results.csv`.
+
 The following values are means across five random seeds.
 
 | Dataset | Alpha | ROC-AUC | Average Precision |
@@ -128,9 +130,9 @@ Full per-seed results are available in the CSV files.
 
 ### Key Findings
 
-The original fixed-bandwidth method achieved the highest mean Average Precision on Thyroid and Seismic Bumps.
+At 5% supervision, the fixed-bandwidth method achieved the highest mean Average Precision on Thyroid and Seismic Bumps. This does not hold across all supervision levels.
 
-On the synthetic dataset, alpha=0.8 achieved the highest mean Average Precision (0.5508), compared with 0.5219 for the fixed baseline. However, the paired comparison across five seeds was not statistically significant (p approximately 0.267).
+On the synthetic dataset, alpha=0.8 achieved the highest mean AP at all three supervision levels. Paired comparisons with the fixed baseline gave p-values of approximately 0.267, 0.340, and 0.082 at 5%, 10%, and 20%, respectively. None was statistically significant at the 5% level.
 
 Adaptive bandwidth selection did not consistently outperform the fixed-bandwidth baseline. The alpha comparisons are exploratory because the settings were evaluated using test-set outcomes rather than selected on an independent validation set.
 
@@ -160,3 +162,26 @@ The original authors retain copyright over their contributions.
 
 The original ADSD source code is distributed under the MIT License. The original copyright and licence notice are preserved in `LICENSE`.
 
+
+
+## Additional Supervision Experiments
+
+The complete evaluation contains 225 runs:
+3 datasets, 3 labelled-anomaly ratios, 5 bandwidth weights,
+and 5 random seeds.
+
+The original scripts cover 75 runs at 5% supervision.
+The following script covers 150 additional runs at 10% and 20%:
+
+```bash
+python run_label_ratios.py
+```
+
+Additional results are saved to `label_ratio_results.csv`.
+The script skips configurations already recorded in that file.
+For a complete rerun, move the existing result file to a backup
+location before running the script.
+
+Bandwidth effects varied across datasets and supervision levels.
+The tested adaptive method did not consistently outperform the
+fixed baseline. Comparisons are exploratory.
