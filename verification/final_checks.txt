@@ -1,0 +1,211 @@
+ENVIRONMENT 3.10.20 (main, Jun 11 2026, 15:14:28) [Clang 20.1.8 ] macOS-27.0.1-arm64-arm-64bit arm64
+numpy 1.26.4
+pandas 2.3.3
+scipy 1.14.1
+scikit-learn 1.7.2
+torch 1.13.1
+tensorflow 2.15.1
+PASS: Python source syntax and model imports
+{'Samples': 3772, 'Features': 6, 'Anomalies': 93, 'Anomalies Ratio(%)': 2.47}
+{'Samples': 3772, 'Features': 6, 'Anomalies': 93, 'Anomalies Ratio(%)': 2.47}
+{'Samples': 3772, 'Features': 6, 'Anomalies': 93, 'Anomalies Ratio(%)': 2.47}
+{'Samples': 3772, 'Features': 6, 'Anomalies': 93, 'Anomalies Ratio(%)': 2.47}
+{'Samples': 3772, 'Features': 6, 'Anomalies': 93, 'Anomalies Ratio(%)': 2.47}
+{'Samples': 3772, 'Features': 6, 'Anomalies': 93, 'Anomalies Ratio(%)': 2.47}
+{'Samples': 3772, 'Features': 6, 'Anomalies': 93, 'Anomalies Ratio(%)': 2.47}
+{'Samples': 3772, 'Features': 6, 'Anomalies': 93, 'Anomalies Ratio(%)': 2.47}
+{'Samples': 3772, 'Features': 6, 'Anomalies': 93, 'Anomalies Ratio(%)': 2.47}
+{'Samples': 3772, 'Features': 6, 'Anomalies': 93, 'Anomalies Ratio(%)': 2.47}
+{'Samples': 3772, 'Features': 6, 'Anomalies': 93, 'Anomalies Ratio(%)': 2.47}
+{'Samples': 3772, 'Features': 6, 'Anomalies': 93, 'Anomalies Ratio(%)': 2.47}
+{'Samples': 3772, 'Features': 6, 'Anomalies': 93, 'Anomalies Ratio(%)': 2.47}
+{'Samples': 3772, 'Features': 6, 'Anomalies': 93, 'Anomalies Ratio(%)': 2.47}
+{'Samples': 3772, 'Features': 6, 'Anomalies': 93, 'Anomalies Ratio(%)': 2.47}
+{'Samples': 2584, 'Features': 24, 'Anomalies': 170, 'Anomalies Ratio(%)': 6.58}
+{'Samples': 2584, 'Features': 24, 'Anomalies': 170, 'Anomalies Ratio(%)': 6.58}
+{'Samples': 2584, 'Features': 24, 'Anomalies': 170, 'Anomalies Ratio(%)': 6.58}
+{'Samples': 2584, 'Features': 24, 'Anomalies': 170, 'Anomalies Ratio(%)': 6.58}
+{'Samples': 2584, 'Features': 24, 'Anomalies': 170, 'Anomalies Ratio(%)': 6.58}
+{'Samples': 2584, 'Features': 24, 'Anomalies': 170, 'Anomalies Ratio(%)': 6.58}
+{'Samples': 2584, 'Features': 24, 'Anomalies': 170, 'Anomalies Ratio(%)': 6.58}
+{'Samples': 2584, 'Features': 24, 'Anomalies': 170, 'Anomalies Ratio(%)': 6.58}
+{'Samples': 2584, 'Features': 24, 'Anomalies': 170, 'Anomalies Ratio(%)': 6.58}
+{'Samples': 2584, 'Features': 24, 'Anomalies': 170, 'Anomalies Ratio(%)': 6.58}
+{'Samples': 2584, 'Features': 24, 'Anomalies': 170, 'Anomalies Ratio(%)': 6.58}
+{'Samples': 2584, 'Features': 24, 'Anomalies': 170, 'Anomalies Ratio(%)': 6.58}
+{'Samples': 2584, 'Features': 24, 'Anomalies': 170, 'Anomalies Ratio(%)': 6.58}
+{'Samples': 2584, 'Features': 24, 'Anomalies': 170, 'Anomalies Ratio(%)': 6.58}
+{'Samples': 2584, 'Features': 24, 'Anomalies': 170, 'Anomalies Ratio(%)': 6.58}
+{'Samples': 10000, 'Features': 10, 'Anomalies': 500, 'Anomalies Ratio(%)': 5.0}
+{'Samples': 10000, 'Features': 10, 'Anomalies': 500, 'Anomalies Ratio(%)': 5.0}
+{'Samples': 10000, 'Features': 10, 'Anomalies': 500, 'Anomalies Ratio(%)': 5.0}
+{'Samples': 10000, 'Features': 10, 'Anomalies': 500, 'Anomalies Ratio(%)': 5.0}
+{'Samples': 10000, 'Features': 10, 'Anomalies': 500, 'Anomalies Ratio(%)': 5.0}
+{'Samples': 10000, 'Features': 10, 'Anomalies': 500, 'Anomalies Ratio(%)': 5.0}
+{'Samples': 10000, 'Features': 10, 'Anomalies': 500, 'Anomalies Ratio(%)': 5.0}
+{'Samples': 10000, 'Features': 10, 'Anomalies': 500, 'Anomalies Ratio(%)': 5.0}
+{'Samples': 10000, 'Features': 10, 'Anomalies': 500, 'Anomalies Ratio(%)': 5.0}
+{'Samples': 10000, 'Features': 10, 'Anomalies': 500, 'Anomalies Ratio(%)': 5.0}
+{'Samples': 10000, 'Features': 10, 'Anomalies': 500, 'Anomalies Ratio(%)': 5.0}
+{'Samples': 10000, 'Features': 10, 'Anomalies': 500, 'Anomalies Ratio(%)': 5.0}
+{'Samples': 10000, 'Features': 10, 'Anomalies': 500, 'Anomalies Ratio(%)': 5.0}
+{'Samples': 10000, 'Features': 10, 'Anomalies': 500, 'Anomalies Ratio(%)': 5.0}
+{'Samples': 10000, 'Features': 10, 'Anomalies': 500, 'Anomalies Ratio(%)': 5.0}
+PASS: all datasets, metadata, five seeds, supervision counts, nested pools and matching test sets
+PASS: complete 225-run grid, unique keys and valid metrics
+=== SYNTHETIC DATASET CREATED ===
+Seed: 42
+X shape: (10000, 10)
+y shape: (10000,)
+Normal: 9500
+Anomalies: 500
+Anomaly ratio: 5.00%
+
+Global anomalies: 125
+Local anomalies: 125
+Dependency anomalies: 125
+Clustered anomalies: 125
+
+NaN values: 0
+Saved: datasets/synthetic_constructed.npz
+Saved: datasets/synthetic_constructed_metadata.npz
+PASS: synthetic generator reproduces archived arrays
+{
+  "run_1": {
+    "response_file": "llm_judge/response_1.txt",
+    "n": 40,
+    "accuracy": 0.775,
+    "balanced_accuracy": 0.775,
+    "precision": 0.7894736842105263,
+    "recall": 0.75,
+    "f1": 0.7692307692307693,
+    "ROC_AUC": 0.8362499999999999,
+    "AP": 0.8828680444798865,
+    "confusion_matrix_rows_true_columns_predicted": [
+      [
+        16,
+        4
+      ],
+      [
+        5,
+        15
+      ]
+    ],
+    "recall_by_type": {
+      "global": 1.0,
+      "variance_inflated_local": 0.8,
+      "dependency": 0.2,
+      "clustered": 1.0
+    },
+    "normal_specificity": 0.8
+  },
+  "run_2": {
+    "response_file": "llm_judge/response_2.txt",
+    "n": 40,
+    "accuracy": 0.8,
+    "balanced_accuracy": 0.8,
+    "precision": 0.875,
+    "recall": 0.7,
+    "f1": 0.7777777777777778,
+    "ROC_AUC": 0.8412499999999999,
+    "AP": 0.8913421703744284,
+    "confusion_matrix_rows_true_columns_predicted": [
+      [
+        18,
+        2
+      ],
+      [
+        6,
+        14
+      ]
+    ],
+    "recall_by_type": {
+      "global": 1.0,
+      "variance_inflated_local": 0.8,
+      "dependency": 0.0,
+      "clustered": 1.0
+    },
+    "normal_specificity": 0.9
+  },
+  "repeat_reliability": {
+    "decision_agreement": 0.875,
+    "cohen_kappa": 0.7474747474747474
+  }
+}
+Prepared 40 blinded test records; training reference: 6983 records.
+For replication, use judge_prompt_plain.txt only; do not reveal the answer key.
+PASS: LLM metrics, prompt and answer-key reconstruction
+REPLAY: thyroid, ratio=0.05, alpha=0.0, seed=1
+{'Samples': 3772, 'Features': 6, 'Anomalies': 93, 'Anomalies Ratio(%)': 2.47}
+epoch: 0, loss: 0.8006221103040796
+epoch: 1, loss: 0.44746967993284525
+epoch: 2, loss: 0.41900663626821416
+epoch: 3, loss: 0.4000035430255689
+epoch: 4, loss: 0.4147979868085761
+epoch: 5, loss: 0.3706761927981126
+epoch: 6, loss: 0.3878538530123861
+epoch: 7, loss: 0.3781521273286719
+epoch: 8, loss: 0.36553525140410975
+epoch: 9, loss: 0.35476109542344747
+epoch: 10, loss: 0.3434692887883437
+epoch: 11, loss: 0.29679311890351145
+epoch: 12, loss: 0.32390746944829035
+epoch: 13, loss: 0.27798357292225484
+epoch: 14, loss: 0.26917511695309687
+epoch: 15, loss: 0.29883412467805964
+epoch: 16, loss: 0.29143037450940984
+epoch: 17, loss: 0.28470532360829803
+epoch: 18, loss: 0.27793769930538376
+epoch: 19, loss: 0.23120262434608058
+aucroc: rerun=0.9897774327, archived=0.9897774327, difference=+0.0000000000
+aucpr: rerun=0.8270871736, archived=0.8270871736, difference=+0.0000000000
+REPLAY: synthetic_constructed, ratio=0.2, alpha=0.0, seed=1
+{'Samples': 10000, 'Features': 10, 'Anomalies': 500, 'Anomalies Ratio(%)': 5.0}
+epoch: 0, loss: 0.8731682109382918
+epoch: 1, loss: 0.6211772268673159
+epoch: 2, loss: 0.5807233104165995
+epoch: 3, loss: 0.5570386738147376
+epoch: 4, loss: 0.5435968682451068
+epoch: 5, loss: 0.5350262876951469
+epoch: 6, loss: 0.5296528389993703
+epoch: 7, loss: 0.5249202791249977
+epoch: 8, loss: 0.5175299532008621
+epoch: 9, loss: 0.5107519486040439
+epoch: 10, loss: 0.5048523005449547
+epoch: 11, loss: 0.49766786986926814
+epoch: 12, loss: 0.49072620216405616
+epoch: 13, loss: 0.4842849227617372
+epoch: 14, loss: 0.4776285909256845
+epoch: 15, loss: 0.4712858503719546
+epoch: 16, loss: 0.46491179769893864
+epoch: 17, loss: 0.4586868184917378
+epoch: 18, loss: 0.452634150127195
+epoch: 19, loss: 0.4475066723688593
+aucroc: rerun=0.7587438596, archived=0.7587438596, difference=+0.0000000000
+aucpr: rerun=0.5817882912, archived=0.5817882912, difference=+0.0000000000
+REPLAY: synthetic_constructed, ratio=0.2, alpha=0.8, seed=1
+{'Samples': 10000, 'Features': 10, 'Anomalies': 500, 'Anomalies Ratio(%)': 5.0}
+epoch: 0, loss: 0.911032332001992
+epoch: 1, loss: 0.727511427874835
+epoch: 2, loss: 0.7642453436581593
+epoch: 3, loss: 0.7066016900089552
+epoch: 4, loss: 0.7826792384093663
+epoch: 5, loss: 0.7977680001618728
+epoch: 6, loss: 0.660523015935466
+epoch: 7, loss: 0.7150727577929227
+epoch: 8, loss: 0.7014970588234236
+epoch: 9, loss: 0.6716981153443174
+epoch: 10, loss: 0.6720447512167804
+epoch: 11, loss: 0.721775454732607
+epoch: 12, loss: 0.7330655944797227
+epoch: 13, loss: 0.7756467146693535
+epoch: 14, loss: 0.7542628426596804
+epoch: 15, loss: 0.7160539413398167
+epoch: 16, loss: 0.7098833941063791
+epoch: 17, loss: 0.71342559580533
+epoch: 18, loss: 0.7476825168672597
+epoch: 19, loss: 0.7130369116675179
+aucroc: rerun=0.7722175439, archived=0.7722175439, difference=+0.0000000000
+aucpr: rerun=0.6169957132, archived=0.6169957132, difference=+0.0000000000
+PASS: three representative 20-epoch experiments match archived scores within 1e-6
+ALL FINAL CHECKS PASSED
