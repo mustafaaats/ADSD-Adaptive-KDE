@@ -185,3 +185,18 @@ location before running the script.
 Bandwidth effects varied across datasets and supervision levels.
 The tested adaptive method did not consistently outperform the
 fixed baseline. Comparisons are exploratory.
+
+
+## Auxiliary LLM Evaluation
+
+Two GPT-6 Instant responses were evaluated on 40 synthetic
+test observations. Accuracy was 77.5% and 80.0%.
+Binary decisions agreed on 87.5% of observations
+(Cohen's kappa: 0.7475).
+
+The sample was deliberately balanced, so its precision and AP
+are not directly comparable with ADSD results on the full test set.
+This auxiliary assessment does not establish bandwidth superiority.
+
+Prompts, responses, scoring code, collection metadata,
+and detailed results are available in [llm_judge](llm_judge/README.md).

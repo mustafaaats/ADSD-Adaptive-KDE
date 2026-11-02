@@ -1,0 +1,9 @@
+{
+  "model_display_name": "GPT-6",
+  "mode": "Instant",
+  "source": "Model and mode reported by the user for both responses.",
+  "responses_received_in_session_date": "2026-11-02",
+  "timezone": "Australia/Sydney",
+  "separate_fresh_chats_confirmed": null,
+  "note": "Separate fresh chats were requested, but have not been explicitly confirmed. No API model ID, temperature, or backend version was recorded."
+}

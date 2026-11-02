@@ -1,0 +1,51 @@
+{
+  "split_seed": 1,
+  "sampling_seed": 8240,
+  "candidate_count": 40,
+  "sampling": {
+    "normal": 20,
+    "global": 5,
+    "variance_inflated_local": 5,
+    "dependency": 5,
+    "clustered": 5
+  },
+  "reference_supervision_ratio": 0.05,
+  "reference_pool_count": 6983,
+  "threshold": 50,
+  "repeats": 2,
+  "prompt_sha256": "14023a209c10947d84e455c2c796b1fc9b4aa0fb700e9966e8e05717dde427a5",
+  "dataset_sha256": "ccfaeeec29249a291e120d461d43ae50ae55da0d85a350fa645d6cfaed6a15da",
+  "primary_metrics": [
+    "balanced_accuracy",
+    "precision",
+    "recall",
+    "f1"
+  ],
+  "secondary_metrics": [
+    "ROC_AUC",
+    "AP"
+  ],
+  "reliability_metrics": [
+    "decision_agreement",
+    "Cohen_kappa"
+  ],
+  "limitations": [
+    "balanced enriched diagnostic sample; not representative prevalence",
+    "one split and five anomalies per subtype",
+    "LLM numeric judgments are auxiliary and not expert validation",
+    "no inference that LLM validates ADSD bandwidth superiority",
+    "no prompt revision after viewing labels or outcomes"
+  ],
+  "judge_metadata_required": [
+    "displayed_model_name",
+    "evaluation_date",
+    "tools_or_reasoning_mode",
+    "fresh_chat_per_repeat"
+  ],
+  "format_revision": {
+    "reason": "Previous attachment attempt displayed only an opening square bracket; no usable judgments were obtained.",
+    "change": "Compact input and pipe-separated plain-text output; same records, reference statistics, decision threshold and metrics.",
+    "prompt_sha256": "1a8b5e2fa44561afe36b81a2b5ea9cafca641399fda4eff6539dd4e6258f6b00",
+    "prior_response_status": "No valid judgment set; generation versus display failure not established."
+  }
+}

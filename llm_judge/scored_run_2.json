@@ -1,0 +1,362 @@
+[
+  {
+    "id": "R001",
+    "source_index": 2770,
+    "true_label": 1,
+    "anomaly_type": 3,
+    "anomaly_score": 34.0,
+    "predicted_label": 0,
+    "reason": "Moderate correlation inconsistencies, but marginal values remain within typical ranges."
+  },
+  {
+    "id": "R002",
+    "source_index": 9436,
+    "true_label": 1,
+    "anomaly_type": 4,
+    "anomaly_score": 86.0,
+    "predicted_label": 1,
+    "reason": "Simultaneous positive elevations contradict several strong negative reference correlations."
+  },
+  {
+    "id": "R003",
+    "source_index": 3076,
+    "true_label": 1,
+    "anomaly_type": 3,
+    "anomaly_score": 27.0,
+    "predicted_label": 0,
+    "reason": "Mostly moderate values with limited multivariate inconsistency."
+  },
+  {
+    "id": "R004",
+    "source_index": 9924,
+    "true_label": 1,
+    "anomaly_type": 3,
+    "anomaly_score": 39.0,
+    "predicted_label": 0,
+    "reason": "Negative feature cluster with moderate correlation deviations."
+  },
+  {
+    "id": "R005",
+    "source_index": 7782,
+    "true_label": 0,
+    "anomaly_type": 0,
+    "anomaly_score": 36.0,
+    "predicted_label": 0,
+    "reason": "Moderately unusual combinations, especially x4 and x9."
+  },
+  {
+    "id": "R006",
+    "source_index": 553,
+    "true_label": 1,
+    "anomaly_type": 4,
+    "anomaly_score": 91.0,
+    "predicted_label": 1,
+    "reason": "Broad positive elevations strongly violate expected inverse relationships."
+  },
+  {
+    "id": "R007",
+    "source_index": 4572,
+    "true_label": 0,
+    "anomaly_type": 0,
+    "anomaly_score": 51.0,
+    "predicted_label": 1,
+    "reason": "Unusually negative x4 and conflicting x8 and x9 relationships."
+  },
+  {
+    "id": "R008",
+    "source_index": 229,
+    "true_label": 1,
+    "anomaly_type": 2,
+    "anomaly_score": 68.0,
+    "predicted_label": 1,
+    "reason": "Extreme negative x1 with several inconsistent correlated features."
+  },
+  {
+    "id": "R009",
+    "source_index": 666,
+    "true_label": 1,
+    "anomaly_type": 2,
+    "anomaly_score": 57.0,
+    "predicted_label": 1,
+    "reason": "Contradictory x1, x7, x9 and x10 relationships."
+  },
+  {
+    "id": "R010",
+    "source_index": 7755,
+    "true_label": 1,
+    "anomaly_type": 1,
+    "anomaly_score": 99.0,
+    "predicted_label": 1,
+    "reason": "Extreme positive values across all features and severe correlation violations."
+  },
+  {
+    "id": "R011",
+    "source_index": 6425,
+    "true_label": 1,
+    "anomaly_type": 3,
+    "anomaly_score": 47.0,
+    "predicted_label": 0,
+    "reason": "Several opposing correlated features, without extreme marginal departures."
+  },
+  {
+    "id": "R012",
+    "source_index": 1689,
+    "true_label": 0,
+    "anomaly_type": 0,
+    "anomaly_score": 32.0,
+    "predicted_label": 0,
+    "reason": "Moderate x3 elevation with otherwise relatively typical feature values."
+  },
+  {
+    "id": "R013",
+    "source_index": 2045,
+    "true_label": 1,
+    "anomaly_type": 3,
+    "anomaly_score": 30.0,
+    "predicted_label": 0,
+    "reason": "Mostly moderate negatives with limited correlation inconsistencies."
+  },
+  {
+    "id": "R014",
+    "source_index": 8854,
+    "true_label": 1,
+    "anomaly_type": 2,
+    "anomaly_score": 62.0,
+    "predicted_label": 1,
+    "reason": "Strong inverse relationships mostly preserved despite extreme x5."
+  },
+  {
+    "id": "R015",
+    "source_index": 4186,
+    "true_label": 0,
+    "anomaly_type": 0,
+    "anomaly_score": 42.0,
+    "predicted_label": 0,
+    "reason": "Negative and positive feature groups broadly follow reference correlations."
+  },
+  {
+    "id": "R016",
+    "source_index": 3924,
+    "true_label": 0,
+    "anomaly_type": 0,
+    "anomaly_score": 48.0,
+    "predicted_label": 0,
+    "reason": "Pronounced coordinated deviations largely respect expected correlation structure."
+  },
+  {
+    "id": "R017",
+    "source_index": 4662,
+    "true_label": 1,
+    "anomaly_type": 4,
+    "anomaly_score": 89.0,
+    "predicted_label": 1,
+    "reason": "Uniform positive elevations conflict with strong inverse correlations."
+  },
+  {
+    "id": "R018",
+    "source_index": 7286,
+    "true_label": 0,
+    "anomaly_type": 0,
+    "anomaly_score": 22.0,
+    "predicted_label": 0,
+    "reason": "Mostly typical values with modest deviations from expected relationships."
+  },
+  {
+    "id": "R019",
+    "source_index": 54,
+    "true_label": 0,
+    "anomaly_type": 0,
+    "anomaly_score": 29.0,
+    "predicted_label": 0,
+    "reason": "Moderate deviations broadly consistent with inverse feature relationships."
+  },
+  {
+    "id": "R020",
+    "source_index": 909,
+    "true_label": 0,
+    "anomaly_type": 0,
+    "anomaly_score": 36.0,
+    "predicted_label": 0,
+    "reason": "Elevated features largely align with reference correlation patterns."
+  },
+  {
+    "id": "R021",
+    "source_index": 368,
+    "true_label": 1,
+    "anomaly_type": 1,
+    "anomaly_score": 99.0,
+    "predicted_label": 1,
+    "reason": "Extreme multifeature elevations with severe inverse-correlation violations."
+  },
+  {
+    "id": "R022",
+    "source_index": 4708,
+    "true_label": 0,
+    "anomaly_type": 0,
+    "anomaly_score": 33.0,
+    "predicted_label": 0,
+    "reason": "Moderate coordinated deviations broadly match expected relationships."
+  },
+  {
+    "id": "R023",
+    "source_index": 2194,
+    "true_label": 0,
+    "anomaly_type": 0,
+    "anomaly_score": 27.0,
+    "predicted_label": 0,
+    "reason": "Typical marginal values with several modest correlation inconsistencies."
+  },
+  {
+    "id": "R024",
+    "source_index": 6079,
+    "true_label": 1,
+    "anomaly_type": 2,
+    "anomaly_score": 25.0,
+    "predicted_label": 0,
+    "reason": "Mostly central values with limited multivariate departures."
+  },
+  {
+    "id": "R025",
+    "source_index": 2590,
+    "true_label": 0,
+    "anomaly_type": 0,
+    "anomaly_score": 40.0,
+    "predicted_label": 0,
+    "reason": "Elevated correlated features with expected opposing x3 and x5."
+  },
+  {
+    "id": "R026",
+    "source_index": 6276,
+    "true_label": 0,
+    "anomaly_type": 0,
+    "anomaly_score": 7.0,
+    "predicted_label": 0,
+    "reason": "Near-central values and no substantial correlation violations."
+  },
+  {
+    "id": "R027",
+    "source_index": 6325,
+    "true_label": 1,
+    "anomaly_type": 4,
+    "anomaly_score": 90.0,
+    "predicted_label": 1,
+    "reason": "Broad positive elevations contradict strong negative feature relationships."
+  },
+  {
+    "id": "R028",
+    "source_index": 2954,
+    "true_label": 1,
+    "anomaly_type": 4,
+    "anomaly_score": 93.0,
+    "predicted_label": 1,
+    "reason": "Consistently elevated features violate multiple inverse reference correlations."
+  },
+  {
+    "id": "R029",
+    "source_index": 2115,
+    "true_label": 1,
+    "anomaly_type": 2,
+    "anomaly_score": 54.0,
+    "predicted_label": 1,
+    "reason": "Elevated x4 opposes x9 despite positive reference correlation."
+  },
+  {
+    "id": "R030",
+    "source_index": 2257,
+    "true_label": 1,
+    "anomaly_type": 1,
+    "anomaly_score": 99.0,
+    "predicted_label": 1,
+    "reason": "Extreme multivariate magnitude and severe departures from reference correlations."
+  },
+  {
+    "id": "R031",
+    "source_index": 187,
+    "true_label": 0,
+    "anomaly_type": 0,
+    "anomaly_score": 22.0,
+    "predicted_label": 0,
+    "reason": "Mostly central values with modest coordinated deviations."
+  },
+  {
+    "id": "R032",
+    "source_index": 7720,
+    "true_label": 0,
+    "anomaly_type": 0,
+    "anomaly_score": 32.0,
+    "predicted_label": 0,
+    "reason": "Moderate deviations generally align with reference feature relationships."
+  },
+  {
+    "id": "R033",
+    "source_index": 1246,
+    "true_label": 0,
+    "anomaly_type": 0,
+    "anomaly_score": 43.0,
+    "predicted_label": 0,
+    "reason": "Elevated x7 and conflicting x6 relationships create moderate unusualness."
+  },
+  {
+    "id": "R034",
+    "source_index": 6957,
+    "true_label": 0,
+    "anomaly_type": 0,
+    "anomaly_score": 35.0,
+    "predicted_label": 0,
+    "reason": "Mostly moderate values with conflicting x9 and x10 directions."
+  },
+  {
+    "id": "R035",
+    "source_index": 2290,
+    "true_label": 0,
+    "anomaly_type": 0,
+    "anomaly_score": 28.0,
+    "predicted_label": 0,
+    "reason": "Modest deviations with some opposing correlated features."
+  },
+  {
+    "id": "R036",
+    "source_index": 4163,
+    "true_label": 0,
+    "anomaly_type": 0,
+    "anomaly_score": 31.0,
+    "predicted_label": 0,
+    "reason": "Coordinated negative and positive deviations broadly follow reference relationships."
+  },
+  {
+    "id": "R037",
+    "source_index": 2908,
+    "true_label": 0,
+    "anomaly_type": 0,
+    "anomaly_score": 56.0,
+    "predicted_label": 1,
+    "reason": "Strong x6 and x8 opposition contradicts their positive correlation."
+  },
+  {
+    "id": "R038",
+    "source_index": 4696,
+    "true_label": 0,
+    "anomaly_type": 0,
+    "anomaly_score": 12.0,
+    "predicted_label": 0,
+    "reason": "Central feature values without substantial multivariate inconsistencies."
+  },
+  {
+    "id": "R039",
+    "source_index": 3540,
+    "true_label": 1,
+    "anomaly_type": 1,
+    "anomaly_score": 99.0,
+    "predicted_label": 1,
+    "reason": "Extreme positive elevations and major violations of inverse correlations."
+  },
+  {
+    "id": "R040",
+    "source_index": 2826,
+    "true_label": 1,
+    "anomaly_type": 1,
+    "anomaly_score": 99.0,
+    "predicted_label": 1,
+    "reason": "Extreme simultaneous elevations across strongly opposing reference features."
+  }
+]

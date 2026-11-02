@@ -1,0 +1,62 @@
+{
+  "run_1": {
+    "response_file": "llm_judge/response_1.txt",
+    "n": 40,
+    "accuracy": 0.775,
+    "balanced_accuracy": 0.775,
+    "precision": 0.7894736842105263,
+    "recall": 0.75,
+    "f1": 0.7692307692307693,
+    "ROC_AUC": 0.8362499999999999,
+    "AP": 0.8828680444798865,
+    "confusion_matrix_rows_true_columns_predicted": [
+      [
+        16,
+        4
+      ],
+      [
+        5,
+        15
+      ]
+    ],
+    "recall_by_type": {
+      "global": 1.0,
+      "variance_inflated_local": 0.8,
+      "dependency": 0.2,
+      "clustered": 1.0
+    },
+    "normal_specificity": 0.8
+  },
+  "run_2": {
+    "response_file": "llm_judge/response_2.txt",
+    "n": 40,
+    "accuracy": 0.8,
+    "balanced_accuracy": 0.8,
+    "precision": 0.875,
+    "recall": 0.7,
+    "f1": 0.7777777777777778,
+    "ROC_AUC": 0.8412499999999999,
+    "AP": 0.8913421703744284,
+    "confusion_matrix_rows_true_columns_predicted": [
+      [
+        18,
+        2
+      ],
+      [
+        6,
+        14
+      ]
+    ],
+    "recall_by_type": {
+      "global": 1.0,
+      "variance_inflated_local": 0.8,
+      "dependency": 0.0,
+      "clustered": 1.0
+    },
+    "normal_specificity": 0.9
+  },
+  "repeat_reliability": {
+    "decision_agreement": 0.875,
+    "cohen_kappa": 0.7474747474747474
+  }
+}

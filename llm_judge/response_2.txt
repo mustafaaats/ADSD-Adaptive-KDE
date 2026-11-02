@@ -1,0 +1,40 @@
+R001 | 34 | 0 | Moderate correlation inconsistencies, but marginal values remain within typical ranges.
+R002 | 86 | 1 | Simultaneous positive elevations contradict several strong negative reference correlations.
+R003 | 27 | 0 | Mostly moderate values with limited multivariate inconsistency.
+R004 | 39 | 0 | Negative feature cluster with moderate correlation deviations.
+R005 | 36 | 0 | Moderately unusual combinations, especially x4 and x9.
+R006 | 91 | 1 | Broad positive elevations strongly violate expected inverse relationships.
+R007 | 51 | 1 | Unusually negative x4 and conflicting x8 and x9 relationships.
+R008 | 68 | 1 | Extreme negative x1 with several inconsistent correlated features.
+R009 | 57 | 1 | Contradictory x1, x7, x9 and x10 relationships.
+R010 | 99 | 1 | Extreme positive values across all features and severe correlation violations.
+R011 | 47 | 0 | Several opposing correlated features, without extreme marginal departures.
+R012 | 32 | 0 | Moderate x3 elevation with otherwise relatively typical feature values.
+R013 | 30 | 0 | Mostly moderate negatives with limited correlation inconsistencies.
+R014 | 62 | 1 | Strong inverse relationships mostly preserved despite extreme x5.
+R015 | 42 | 0 | Negative and positive feature groups broadly follow reference correlations.
+R016 | 48 | 0 | Pronounced coordinated deviations largely respect expected correlation structure.
+R017 | 89 | 1 | Uniform positive elevations conflict with strong inverse correlations.
+R018 | 22 | 0 | Mostly typical values with modest deviations from expected relationships.
+R019 | 29 | 0 | Moderate deviations broadly consistent with inverse feature relationships.
+R020 | 36 | 0 | Elevated features largely align with reference correlation patterns.
+R021 | 99 | 1 | Extreme multifeature elevations with severe inverse-correlation violations.
+R022 | 33 | 0 | Moderate coordinated deviations broadly match expected relationships.
+R023 | 27 | 0 | Typical marginal values with several modest correlation inconsistencies.
+R024 | 25 | 0 | Mostly central values with limited multivariate departures.
+R025 | 40 | 0 | Elevated correlated features with expected opposing x3 and x5.
+R026 | 7 | 0 | Near-central values and no substantial correlation violations.
+R027 | 90 | 1 | Broad positive elevations contradict strong negative feature relationships.
+R028 | 93 | 1 | Consistently elevated features violate multiple inverse reference correlations.
+R029 | 54 | 1 | Elevated x4 opposes x9 despite positive reference correlation.
+R030 | 99 | 1 | Extreme multivariate magnitude and severe departures from reference correlations.
+R031 | 22 | 0 | Mostly central values with modest coordinated deviations.
+R032 | 32 | 0 | Moderate deviations generally align with reference feature relationships.
+R033 | 43 | 0 | Elevated x7 and conflicting x6 relationships create moderate unusualness.
+R034 | 35 | 0 | Mostly moderate values with conflicting x9 and x10 directions.
+R035 | 28 | 0 | Modest deviations with some opposing correlated features.
+R036 | 31 | 0 | Coordinated negative and positive deviations broadly follow reference relationships.
+R037 | 56 | 1 | Strong x6 and x8 opposition contradicts their positive correlation.
+R038 | 12 | 0 | Central feature values without substantial multivariate inconsistencies.
+R039 | 99 | 1 | Extreme positive elevations and major violations of inverse correlations.
+R040 | 99 | 1 | Extreme simultaneous elevations across strongly opposing reference features.
